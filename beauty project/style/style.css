@@ -1,0 +1,379 @@
+body{
+	background-image:url(../images/bg.jpg);
+	background-size:100% 900px;
+	padding:0;
+	margin:0;
+	background-attachment:fixed;
+}
+/*start nav coding*/
+nav{
+	width:100%;
+	height:280px;
+	float:left;
+	box-sizing:border-box;
+	background-color:rgba(0,0,0,0.8);
+	padding:50px;
+}
+#welcome-text{
+	color:white;
+	text-align:center;
+	font-size:80px;
+	padding:0;
+	margin:0;
+}
+#navbar{
+	width:900px;
+	height:80px;
+
+	box-sizing:border-box;
+	margin-top:10px;
+	
+}
+#nav-item{
+width:20%;
+height:80px;
+border-width:1px;
+border-style:solid;
+border-color:white;
+box-sizing:border-box;
+text-align:center;
+}
+a{
+	color:white;
+	text-decoration:none;
+	font-family:sans-serif;
+	font-size:18px;
+}
+
+/*end nav coding*/
+/*start homepage section coding*/
+section{
+	width:800px;
+	height:480px;
+	float:right;
+	box-sizing:border-box;
+	background-image:url(../images/section-bg.png);
+	padding:100px;
+
+}
+#logo{
+	width:220px;
+	height:200px;
+	border-width:5px;
+	border-style:solid;
+	border-color:white;
+	box-sizing:border-box;
+	margin-left:150px;
+}
+#logo-text{
+	color:white;
+	text-align:center;
+	font-size:150px;
+	padding:0;
+	margin:0;
+	font-family:verdana;
+}
+#domain-name{
+	color:white;
+	font-family:sans-serif;
+	font-size:60px;
+	padding:0;
+	margin:0;
+	font-weight:bold;
+	margin-left:50px;
+	margin-top:20px;
+}
+/*end homepage scetion coding*/
+/*start login section coding*/
+#domain-name-login{
+	color:white;
+	font-family:sans-serif;
+	font-size:60px;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+/*end login scetion coding*/
+#login-fieldset{
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	float:left;
+	width:500px;
+	height:350px;
+	box-sizing:border-box;
+	margin-left:140px;
+	margin-top:-50px;
+	padding:30px;
+	}
+#login-legend{
+	color:white;
+	font-family:century gothic;
+	font-size:35px;
+	font-weight:bold;
+	
+}
+#login-form{
+	color:white;
+	font-family:sans-serif;
+	font-size:20px;
+}
+#username{
+	width:450px;
+	height:35px;
+	box-shadow:border-box;
+	background-color:inherit;
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	margin-top:5px;
+
+}
+
+#password{
+	width:450px;
+	height:35px;
+	box-shadow:border-box;
+	background-color:inherit;
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	margin-top:5px;
+
+
+}
+#login-btn{
+	float:right;
+	margin-top:25px;
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	width:110px;
+	height:40px;
+	background-color:inherit;
+	color:white;
+}
+
+#location{
+	color:white;
+	font-size:20px;
+	line-height:35px;
+	
+}
+#products-section{
+	width:100%;
+	height:477px;
+	box-sizing:border-box;
+	float:left;
+	background-color:rgba(255,255,255,0.8);
+
+}
+#brand-header-text{
+	text-align:center;
+	font-family:century-gothic;
+	font-size:40px;
+	
+}
+#brand-pic{
+	width:180px;
+	height:80px;
+	float:left;
+	border-bottom-width:3px;
+	border-style:solid;
+	border-color:#323232;
+	background-color:white;
+	margin:45px;
+	margin-top:20px;
+}
+#image-brand{
+	width:180px;
+	height:80px;
+	
+	
+}
+#searching{
+	height:60px;
+	width:60%;
+	float:left;
+	box-sizing:border-box;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:50px;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	font-size:16px;
+	padding:8px;
+	background-image:url(../images/search.jpg);
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+	background-position:right;
+}
+#zest-products{
+	width:100%;
+	height:500px;
+	float:left;
+	box-sizing:border-box;
+	background-color:rgba(0,0,0,0.8);
+	
+}
+#zest-header{
+	color:white;
+	font-family:sans-serif;
+	font-size:40px;
+	text-align:center;
+}
+#zest-goods{
+	width:250px;
+	height:300px;
+	float:left;
+	box-sizing:border-box;
+	border-width:3px;
+	border-style:solid;
+	border-color:white;
+	margin:50px;
+	margin-top:20px;
+}
+#dove-products{
+	width:100%;
+	height:500px;
+	float:left;
+	box-sizing:border-box;
+	background-color:rgba(0,0,0,0.8);
+	
+}
+#dove-header{
+	color:white;
+	font-family:sans-serif;
+	font-size:40px;
+	text-align:center;
+}
+#dove-goods{
+	width:250px;
+	height:300px;
+	float:left;
+	box-sizing:border-box;
+	border-width:3px;
+	border-style:solid;
+	border-color:white;
+	margin:50px;
+	margin-top:20px;
+}
+#lotus-products{
+	width:100%;
+	height:500px;
+	float:left;
+	box-sizing:border-box;
+	background-color:rgba(0,0,0,0.8);
+	
+}
+#lotus-header{
+	color:white;
+	font-family:sans-serif;
+	font-size:40px;
+	text-align:center;
+}
+#lotus-goods{
+	width:250px;
+	height:300px;
+	float:left;
+	box-sizing:border-box;
+	border-width:3px;
+	border-style:solid;
+	border-color:white;
+	margin:50px;
+	margin-top:20px;
+}
+#lakme-products{
+	width:100%;
+	height:500px;
+	float:left;
+	box-sizing:border-box;
+	background-color:rgba(0,0,0,0.8);
+	
+}
+#lakme-header{
+	color:white;
+	font-family:sans-serif;
+	font-size:40px;
+	text-align:center;
+}
+#lakme-goods{
+	width:250px;
+	height:300px;
+	float:left;
+	box-sizing:border-box;
+	border-width:3px;
+	border-style:solid;
+	border-color:white;
+	margin:50px;
+	margin-top:20px;
+}
+#salon-products{
+	width:100%;
+	height:500px;
+	float:left;
+	box-sizing:border-box;
+	background-color:rgba(0,0,0,0.8);
+	
+}
+#salon-header{
+	color:white;
+	font-family:sans-serif;
+	font-size:40px;
+	text-align:center;
+}
+#salon-goods{
+	width:250px;
+	height:300px;
+	float:left;
+	box-sizing:border-box;
+	border-width:3px;
+	border-style:solid;
+	border-color:white;
+	margin:50px;
+	margin-top:20px;
+}
+#product-footer{
+	width:100%;
+	height:50%;
+	float:left;
+	box-sizing:border-box;
+	background-color:rgba(255,255,255,0.8);
+}
+#footer-text{
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+	margin-top:20px;
+	
+}
+#products-name{
+	color:white;
+	text-align:center;
+	font-size:25px;
+	padding:0;
+	margin:0;
+	margin-top:2px;
+}
+#products-price{
+	color:white;
+	margin-left:8px;
+	float:left;
+	
+	
+}
+i{
+	color:red;
+	font-size:30px;
+	
+}
+#shopping-carts{
+	color:white;
+	float:right;
+	margin-right:2px;
+	
+	
+}
